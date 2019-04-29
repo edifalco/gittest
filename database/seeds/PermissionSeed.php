@@ -73,6 +73,11 @@ class PermissionSeed extends Seeder
             ['id' => 74, 'title' => 'gittest_4_edit',],
             ['id' => 75, 'title' => 'gittest_4_view',],
             ['id' => 76, 'title' => 'gittest_4_delete',],
+            ['id' => 77, 'title' => 'gittest_5_access',],
+            ['id' => 78, 'title' => 'gittest_5_create',],
+            ['id' => 79, 'title' => 'gittest_5_edit',],
+            ['id' => 80, 'title' => 'gittest_5_view',],
+            ['id' => 81, 'title' => 'gittest_5_delete',],
 
         ];
 
