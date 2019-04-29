@@ -42,6 +42,10 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin', 'as' => 'admin.'], 
     Route::post('gittest3s_mass_destroy', ['uses' => 'Admin\Gittest3sController@massDestroy', 'as' => 'gittest3s.mass_destroy']);
     Route::post('gittest3s_restore/{id}', ['uses' => 'Admin\Gittest3sController@restore', 'as' => 'gittest3s.restore']);
     Route::delete('gittest3s_perma_del/{id}', ['uses' => 'Admin\Gittest3sController@perma_del', 'as' => 'gittest3s.perma_del']);
+    Route::resource('gittest_4s', 'Admin\Gittest4sController');
+    Route::post('gittest_4s_mass_destroy', ['uses' => 'Admin\Gittest4sController@massDestroy', 'as' => 'gittest_4s.mass_destroy']);
+    Route::post('gittest_4s_restore/{id}', ['uses' => 'Admin\Gittest4sController@restore', 'as' => 'gittest_4s.restore']);
+    Route::delete('gittest_4s_perma_del/{id}', ['uses' => 'Admin\Gittest4sController@perma_del', 'as' => 'gittest_4s.perma_del']);
 
 
 
