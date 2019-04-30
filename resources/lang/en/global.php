@@ -18,6 +18,7 @@ return [
 		'gittest3' => [		'title' => 'Gittest3',		'fields' => [			'name' => 'Name',		],	],
 		'gittest-4' => [		'title' => 'Gittest 4',		'fields' => [			'name' => 'Name',		],	],
 		'gittest-5' => [		'title' => 'Gittest 5',		'fields' => [			'name' => 'Name',		],	],
+		'gittest-7' => [		'title' => 'Gittest 7',		'fields' => [			'name' => 'Name',		],	],
 	'app_create' => 'Create',
 	'app_save' => 'Save',
 	'app_edit' => 'Edit',

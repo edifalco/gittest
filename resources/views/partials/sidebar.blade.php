@@ -128,6 +128,14 @@
                 </a>
             </li>@endcan
             
+            @can('gittest_7_access')
+            <li>
+                <a href="{{ route('admin.gittest_7s.index') }}">
+                    <i class="fa fa-gears"></i>
+                    <span>@lang('global.gittest-7.title')</span>
+                </a>
+            </li>@endcan
+            
 
             
 
